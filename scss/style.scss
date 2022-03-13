@@ -14,8 +14,48 @@ html {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Outfit', sans-serif;
 	font-size: 1.5rem;
 	background-color: $light-gray;
 	color: $gray;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.box {
+	padding: 1.1em;
+	min-width: 320px;
+	max-width: 320px;
+	min-height: 497px;
+	background-color: $white;
+	box-shadow: 0 30px 45px -45px #404346;
+	border-radius: 10px;
+
+	&__img {
+		background-image: url(../images/image-qr-code.png);
+		background-position: center;
+		background-size: cover;
+		width: 288px;
+		height: 288px;
+		border-radius: 10px;
+	}
+
+	&__headline {
+		margin: 1.2em 0.9em 1em;
+		color: $dark-blue;
+		font-size: 2.1rem;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	&__text {
+		margin: 1.1em 0.9em;
+		margin-bottom: 1.6em;
+		text-align: center;
+	}
 }

@@ -13,8 +13,52 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 1.5rem;
   background-color: #d6e2f0;
   color: #7b879d;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.box {
+  padding: 1.1em;
+  min-width: 320px;
+  max-width: 320px;
+  min-height: 497px;
+  background-color: white;
+  -webkit-box-shadow: 0 30px 45px -45px #404346;
+          box-shadow: 0 30px 45px -45px #404346;
+  border-radius: 10px;
+}
+.box__img {
+  background-image: url(../images/image-qr-code.png);
+  background-position: center;
+  background-size: cover;
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+.box__headline {
+  margin: 1.2em 0.9em 1em;
+  color: #1f3251;
+  font-size: 2.1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.box__text {
+  margin: 1.1em 0.9em;
+  margin-bottom: 1.6em;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
