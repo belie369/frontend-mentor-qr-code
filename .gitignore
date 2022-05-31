@@ -16,6 +16,8 @@
 .prettierignore
 
 README-org.md
-README.md
 README-template.md
 style-guide.md
+
+screenshot_mobile.psd
+screenshot_desktop.psd
