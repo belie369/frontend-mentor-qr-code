@@ -15,8 +15,8 @@ html {
 body {
   font-family: "Outfit", sans-serif;
   font-size: 1.5rem;
-  background-color: #d6e2f0;
-  color: #7b879d;
+  background-color: hsl(212deg, 45%, 89%);
+  color: hsl(220deg, 15%, 55%);
 }
 
 .wrapper {
@@ -37,7 +37,7 @@ body {
   min-width: 320px;
   max-width: 320px;
   min-height: 497px;
-  background-color: white;
+  background-color: hsl(0deg, 0%, 100%);
   -webkit-box-shadow: 0 30px 45px -45px #404346;
           box-shadow: 0 30px 45px -45px #404346;
   border-radius: 10px;
@@ -52,7 +52,7 @@ body {
 }
 .box__headline {
   margin: 1.2em 0.9em 1em;
-  color: #1f3251;
+  color: hsl(218deg, 44%, 22%);
   font-size: 2.1rem;
   font-weight: 700;
   text-align: center;
