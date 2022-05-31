@@ -61,4 +61,22 @@ body {
   margin: 1.1em 0.9em;
   margin-bottom: 1.6em;
   text-align: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 1.5em 1em;
+  height: 25px;
+}
+.footer__attribution {
+  font-size: 1.3rem;
+}
+.footer a {
+  color: hsl(218deg, 44%, 22%);
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: hsl(220deg, 15%, 55%);
 }/*# sourceMappingURL=style.css.map */
